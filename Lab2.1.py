@@ -23,4 +23,5 @@ if N <= 0:
         operation(X, N)
 else:
     operation(X, N)
+
 print('мой гитхаб https://github.com/OlegikXD/Lab2')
