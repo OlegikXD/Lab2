@@ -3,11 +3,13 @@ import math
 
 print('Задайте число элементов списка')
 n = int(input())
-
+print('Задайте границы рандома')
+a = int(input())
+b = int(input())
 l = []
 
 for i in range(n):
-    l.append(random.randint(-100, 100))
+    l.append(random.randint(a, b))
 
 print(l)
 
